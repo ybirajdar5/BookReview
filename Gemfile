@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 
 gem 'rails', '4.1.8'
@@ -22,7 +22,6 @@ end
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
-	gem 'thin', '~> 1.6', '>= 1.6.4'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
